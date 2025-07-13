@@ -11,26 +11,31 @@ Kailolo Lingua adalah aplikasi mobile berbasis Flutter yang dirancang untuk memb
 </div>
 
 ### 🏠 Halaman Utama (Kamus)
+
 <div align="center">
   <img src="feature/Home.jpg" alt="Home - Dictionary" width="300"/>
 </div>
 
 ### 🧠 Quiz Interaktif
+
 <div align="center">
   <img src="feature/Quiz.jpg" alt="Quiz Feature" width="300"/>
 </div>
 
 ### 📝 Catatan Personal
+
 <div align="center">
   <img src="feature/Notes.jpg" alt="Notes Feature" width="300"/>
 </div>
 
 ### 📚 Sejarah Negeri Kailolo
+
 <div align="center">
   <img src="feature/History.jpg" alt="History Page" width="300"/>
 </div>
 
 ### 👨‍💻 Tentang Developer
+
 <div align="center">
   <img src="feature/About.jpg" alt="About Developer" width="300"/>
 </div>
@@ -38,6 +43,7 @@ Kailolo Lingua adalah aplikasi mobile berbasis Flutter yang dirancang untuk memb
 ## 📱 Fitur Utama
 
 ### 🔍 Kamus Digital
+
 - **Pencarian Dua Arah**: Terjemahan dari Bahasa Indonesia ke Kailolo dan sebaliknya
 - **Pencarian Real-time**: Fitur pencarian yang responsif dengan hasil instan
 - **Informasi Lengkap**: Setiap kata dilengkapi dengan:
@@ -49,6 +55,7 @@ Kailolo Lingua adalah aplikasi mobile berbasis Flutter yang dirancang untuk memb
 - **Database Lengkap**: Lebih dari 297 kata dalam database kamus
 
 ### 🧠 Quiz Interaktif
+
 - **Pengaturan Kustomisasi**:
   - Pilih jumlah soal (1-297 soal)
   - Atur waktu per soal (1-60 detik)
@@ -58,6 +65,7 @@ Kailolo Lingua adalah aplikasi mobile berbasis Flutter yang dirancang untuk memb
 - **Feedback Langsung**: Hasil quiz dengan analisis performa
 
 ### 📝 Catatan Personal
+
 - **Manajemen Tugas**: Buat, edit, dan hapus catatan pribadi
 - **Kategori Tugas**:
   - Tugas prioritas
@@ -67,6 +75,7 @@ Kailolo Lingua adalah aplikasi mobile berbasis Flutter yang dirancang untuk memb
 - **Local Storage**: Penyimpanan catatan secara lokal
 
 ### 📚 Informasi Budaya
+
 - **Sejarah Negeri Kailolo**: Informasi lengkap tentang sejarah dan budaya
 - **Galeri Foto**: Carousel slider dengan gambar-gambar bersejarah:
   - Peta Negeri Kailolo
@@ -77,23 +86,25 @@ Kailolo Lingua adalah aplikasi mobile berbasis Flutter yang dirancang untuk memb
 ## 🛠️ Teknologi yang Digunakan
 
 ### Framework & Language
+
 - **Flutter**: Framework utama untuk pengembangan cross-platform
 - **Dart**: Bahasa pemrograman
 
 ### Dependencies Utama
+
 ```yaml
 dependencies:
   flutter: sdk
-  animated_text_kit: ^4.2.2      # Animasi teks
-  carousel_slider: ^4.2.1        # Slider gambar
-  cupertino_icons: ^1.0.6        # Icon iOS
-  font_awesome_flutter: ^10.8.0   # Icon Font Awesome
-  http: ^1.2.1                   # HTTP requests
-  intl: ^0.19.0                  # Internationalization
-  json_annotation: ^4.8.1        # JSON serialization
-  path_provider: ^2.1.3          # File system paths
-  shared_preferences: ^2.2.2      # Local storage
-  url_launcher: ^6.2.5           # Launch URLs
+  animated_text_kit: ^4.2.2 # Animasi teks
+  carousel_slider: ^4.2.1 # Slider gambar
+  cupertino_icons: ^1.0.6 # Icon iOS
+  font_awesome_flutter: ^10.8.0 # Icon Font Awesome
+  http: ^1.2.1 # HTTP requests
+  intl: ^0.19.0 # Internationalization
+  json_annotation: ^4.8.1 # JSON serialization
+  path_provider: ^2.1.3 # File system paths
+  shared_preferences: ^2.2.2 # Local storage
+  url_launcher: ^6.2.5 # Launch URLs
 ```
 
 ## 📁 Struktur Proyek
@@ -125,6 +136,7 @@ assets/
 ## 🚀 Instalasi dan Setup
 
 ### Prasyarat
+
 - Flutter SDK (>=3.3.0 <4.0.0)
 - Dart SDK
 - Android Studio / VS Code
@@ -133,17 +145,20 @@ assets/
 ### Langkah Instalasi
 
 1. **Clone Repository**
+
    ```bash
    git clone <repository-url>
    cd dictionary
    ```
 
 2. **Install Dependencies**
+
    ```bash
    flutter pub get
    ```
 
 3. **Generate Files** (jika diperlukan)
+
    ```bash
    flutter packages pub run build_runner build
    ```
@@ -156,11 +171,13 @@ assets/
 ### Build untuk Production
 
 **Android APK:**
+
 ```bash
 flutter build apk --release
 ```
 
 **Android App Bundle:**
+
 ```bash
 flutter build appbundle --release
 ```
@@ -199,7 +216,7 @@ Aplikasi menggunakan file JSON sebagai database kamus dengan struktur:
 **Chairil Ali**  
 ITB Stikom Ambon
 
-*"Harapan saya aplikasi ini dapat membantu masyarakat Negeri Kailolo dalam menerjemahkan kata-kata dalam Bahasa Indonesia ke Bahasa Daerah Kailolo, begitu juga sebaliknya 😊"*
+_"Harapan saya aplikasi ini dapat membantu masyarakat Negeri Kailolo dalam menerjemahkan kata-kata dalam Bahasa Indonesia ke Bahasa Daerah Kailolo, begitu juga sebaliknya 😊"_
 
 ## 📄 Lisensi
 
@@ -217,7 +234,7 @@ Kontribusi untuk pengembangan aplikasi ini sangat diterima. Silakan:
 
 ## 📞 Kontak
 
-Untuk pertanyaan atau saran, silakan hubungi developer melalui informasi yang tersedia di aplikasi.
+Untuk pertanyaan atau saran, silakan hubungi chairilali13@gmail.com atau +6282238482847.
 
 ---
 
