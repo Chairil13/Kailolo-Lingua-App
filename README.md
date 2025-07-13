@@ -1,8 +1,8 @@
 # Kailolo Lingua 🗣️
 
-**Aplikasi Kamus Terjemahan Bahasa Daerah Kailolo - Indonesia**
+**Kailolo Regional Language - Indonesian Translation Dictionary App**
 
-Kailolo Lingua adalah aplikasi mobile berbasis Flutter yang dirancang untuk membantu masyarakat Negeri Kailolo dalam menerjemahkan kata-kata antara Bahasa Indonesia dan Bahasa Daerah Kailolo.
+Kailolo Lingua is a Flutter-based mobile application designed to help the people of Kailolo Village translate words between Indonesian and Kailolo Regional Language.
 
 ## 📸 Screenshots
 
@@ -10,95 +10,95 @@ Kailolo Lingua adalah aplikasi mobile berbasis Flutter yang dirancang untuk memb
   <img src="feature/Feature.png" alt="App Features Overview" width="300"/>
 </div>
 
-### 🏠 Halaman Utama (Kamus)
+### 🏠 Home Page (Dictionary)
 
 <div align="center">
   <img src="feature/Home.jpg" alt="Home - Dictionary" width="300"/>
 </div>
 
-### 🧠 Quiz Interaktif
+### 🧠 Interactive Quiz
 
 <div align="center">
   <img src="feature/Quiz.jpg" alt="Quiz Feature" width="300"/>
 </div>
 
-### 📝 Catatan Personal
+### 📝 Personal Notes
 
 <div align="center">
   <img src="feature/Notes.jpg" alt="Notes Feature" width="300"/>
 </div>
 
-### 📚 Sejarah Negeri Kailolo
+### 📚 Kailolo Village History
 
 <div align="center">
   <img src="feature/History.jpg" alt="History Page" width="300"/>
 </div>
 
-### 👨‍💻 Tentang Developer
+### 👨‍💻 About Developer
 
 <div align="center">
   <img src="feature/About.jpg" alt="About Developer" width="300"/>
 </div>
 
-## 📱 Fitur Utama
+## 📱 Main Features
 
-### 🔍 Kamus Digital
+### 🔍 Digital Dictionary
 
-- **Pencarian Dua Arah**: Terjemahan dari Bahasa Indonesia ke Kailolo dan sebaliknya
-- **Pencarian Real-time**: Fitur pencarian yang responsif dengan hasil instan
-- **Informasi Lengkap**: Setiap kata dilengkapi dengan:
-  - Pengucapan (pronunciation)
-  - Sinonim dalam bahasa Kailolo
-  - Sinonim dalam bahasa Indonesia
-  - Contoh kalimat penggunaan
-- **Scroll Navigation**: Tombol navigasi untuk scroll ke atas/bawah dengan mudah
-- **Database Lengkap**: Lebih dari 297 kata dalam database kamus
+- **Bidirectional Search**: Translation from Indonesian to Kailolo and vice versa
+- **Real-time Search**: Responsive search feature with instant results
+- **Complete Information**: Each word includes:
+  - Pronunciation
+  - Synonyms in Kailolo language
+  - Synonyms in Indonesian language
+  - Usage example sentences
+- **Scroll Navigation**: Navigation buttons for easy scrolling up/down
+- **Complete Database**: More than 297 words in the dictionary database
 
-### 🧠 Quiz Interaktif
+### 🧠 Interactive Quiz
 
-- **Pengaturan Kustomisasi**:
-  - Pilih jumlah soal (1-297 soal)
-  - Atur waktu per soal (1-60 detik)
-  - Input nama pengguna
-- **Sistem Penilaian**: Evaluasi kemampuan terjemahan dengan skor real-time
-- **Timer**: Batasan waktu untuk setiap pertanyaan
-- **Feedback Langsung**: Hasil quiz dengan analisis performa
+- **Custom Settings**:
+  - Choose number of questions (1-297 questions)
+  - Set time per question (1-60 seconds)
+  - User name input
+- **Scoring System**: Translation ability evaluation with real-time scores
+- **Timer**: Time limit for each question
+- **Instant Feedback**: Quiz results with performance analysis
 
-### 📝 Catatan Personal
+### 📝 Personal Notes
 
-- **Manajemen Tugas**: Buat, edit, dan hapus catatan pribadi
-- **Kategori Tugas**:
-  - Tugas prioritas
-  - Tugas harian
-- **Interface Modern**: UI yang menarik dengan background kustom
-- **Timestamp**: Pencatatan waktu pembuatan dan modifikasi
-- **Local Storage**: Penyimpanan catatan secara lokal
+- **Task Management**: Create, edit, and delete personal notes
+- **Task Categories**:
+  - Priority tasks
+  - Daily tasks
+- **Modern Interface**: Attractive UI with custom background
+- **Timestamp**: Recording of creation and modification time
+- **Local Storage**: Local note storage
 
-### 📚 Informasi Budaya
+### 📚 Cultural Information
 
-- **Sejarah Negeri Kailolo**: Informasi lengkap tentang sejarah dan budaya
-- **Galeri Foto**: Carousel slider dengan gambar-gambar bersejarah:
-  - Peta Negeri Kailolo
-  - Makam bersejarah
-  - Dokumentasi acara adat
-- **Informasi Developer**: Profil pengembang aplikasi dengan animasi teks
+- **Kailolo Village History**: Complete information about history and culture
+- **Photo Gallery**: Carousel slider with historical images:
+  - Kailolo Village map
+  - Historical tombs
+  - Traditional ceremony documentation
+- **Developer Information**: Developer profile with text animations
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technology Stack
 
 ### Framework & Language
 
-- **Flutter**: Framework utama untuk pengembangan cross-platform
-- **Dart**: Bahasa pemrograman
+- **Flutter**: Main framework for cross-platform development
+- **Dart**: Programming language
 
-### Dependencies Utama
+### Main Dependencies
 
 ```yaml
 dependencies:
   flutter: sdk
-  animated_text_kit: ^4.2.2 # Animasi teks
-  carousel_slider: ^4.2.1 # Slider gambar
-  cupertino_icons: ^1.0.6 # Icon iOS
-  font_awesome_flutter: ^10.8.0 # Icon Font Awesome
+  animated_text_kit: ^4.2.2 # Text animations
+  carousel_slider: ^4.2.1 # Image slider
+  cupertino_icons: ^1.0.6 # iOS icons
+  font_awesome_flutter: ^10.8.0 # Font Awesome icons
   http: ^1.2.1 # HTTP requests
   intl: ^0.19.0 # Internationalization
   json_annotation: ^4.8.1 # JSON serialization
@@ -107,42 +107,42 @@ dependencies:
   url_launcher: ^6.2.5 # Launch URLs
 ```
 
-## 📁 Struktur Proyek
+## 📁 Project Structure
 
 ```
 lib/
-├── main.dart                    # Entry point aplikasi
+├── main.dart                    # Application entry point
 ├── models/
-│   └── word.dart               # Model data kata
+│   └── word.dart               # Word data model
 ├── pages/
-│   ├── catatan/                # Fitur catatan
+│   ├── catatan/                # Notes feature
 │   │   ├── catatan.dart
 │   │   ├── tambah_catatan.dart
 │   │   ├── edit_catatan.dart
 │   │   ├── models/
 │   │   └── storage_service.dart
-│   ├── quiz.dart               # Fitur quiz
-│   └── sejarah_kailolo.dart    # Halaman sejarah
+│   ├── quiz.dart               # Quiz feature
+│   └── sejarah_kailolo.dart    # History page
 ├── components/
 │   └── utils.dart              # Utility functions
-└── about_dev.dart              # Halaman tentang developer
+└── about_dev.dart              # About developer page
 
 assets/
-├── images/                     # Gambar dan logo
-├── I2Kdatabase.json           # Database kamus
-└── KamusKailolo.json          # Data kamus utama
+├── images/                     # Images and logos
+├── I2Kdatabase.json           # Dictionary database
+└── KamusKailolo.json          # Main dictionary data
 ```
 
-## 🚀 Instalasi dan Setup
+## 🚀 Installation and Setup
 
-### Prasyarat
+### Prerequisites
 
 - Flutter SDK (>=3.3.0 <4.0.0)
 - Dart SDK
 - Android Studio / VS Code
-- Emulator Android atau perangkat fisik
+- Android emulator or physical device
 
-### Langkah Instalasi
+### Installation Steps
 
 1. **Clone Repository**
 
@@ -157,18 +157,18 @@ assets/
    flutter pub get
    ```
 
-3. **Generate Files** (jika diperlukan)
+3. **Generate Files** (if needed)
 
    ```bash
    flutter packages pub run build_runner build
    ```
 
-4. **Run Aplikasi**
+4. **Run Application**
    ```bash
    flutter run
    ```
 
-### Build untuk Production
+### Build for Production
 
 **Android APK:**
 
@@ -182,60 +182,60 @@ flutter build apk --release
 flutter build appbundle --release
 ```
 
-## 📊 Data Kamus
+## 📊 Dictionary Data
 
-Aplikasi menggunakan file JSON sebagai database kamus dengan struktur:
+The application uses JSON files as dictionary database with structure:
 
 ```json
 {
-  "ind": "kata dalam bahasa Indonesia",
-  "kai": "kata dalam bahasa Kailolo",
-  "pron": ["pengucapan"],
-  "kai_syns": ["sinonim dalam Kailolo"],
-  "ind_syns": ["sinonim dalam Indonesia"],
-  "sents": ["contoh kalimat"]
+  "ind": "word in Indonesian",
+  "kai": "word in Kailolo",
+  "pron": ["pronunciation"],
+  "kai_syns": ["synonyms in Kailolo"],
+  "ind_syns": ["synonyms in Indonesian"],
+  "sents": ["example sentences"]
 }
 ```
 
-## 🎨 Fitur UI/UX
+## 🎨 UI/UX Features
 
-- **Material Design**: Mengikuti guidelines Material Design
-- **Responsive Layout**: Adaptif untuk berbagai ukuran layar
-- **Dark/Light Theme**: Mendukung tema terang
-- **Smooth Animations**: Animasi yang halus dan menarik
-- **Intuitive Navigation**: Navigasi yang mudah dipahami
+- **Material Design**: Following Material Design guidelines
+- **Responsive Layout**: Adaptive for various screen sizes
+- **Dark/Light Theme**: Support for light theme
+- **Smooth Animations**: Smooth and attractive animations
+- **Intuitive Navigation**: Easy-to-understand navigation
 
-## 🔄 Fitur Offline
+## 🔄 Offline Features
 
-- **Local Storage**: Data kamus disimpan secara lokal
-- **Offline Access**: Akses kamus tanpa koneksi internet
-- **Auto Sync**: Sinkronisasi otomatis saat online
+- **Local Storage**: Dictionary data stored locally
+- **Offline Access**: Dictionary access without internet connection
+- **Auto Sync**: Automatic synchronization when online
 
 ## 👨‍💻 Developer
 
 **Chairil Ali**  
 ITB Stikom Ambon
 
-_"Harapan saya aplikasi ini dapat membantu masyarakat Negeri Kailolo dalam menerjemahkan kata-kata dalam Bahasa Indonesia ke Bahasa Daerah Kailolo, begitu juga sebaliknya 😊"_
+_"I hope this application can help the people of Kailolo Village in translating words from Indonesian to Kailolo Regional Language, and vice versa 😊"_
 
-## 📄 Lisensi
+## 📄 License
 
-Proyek ini dikembangkan untuk kepentingan edukasi dan pelestarian budaya Negeri Kailolo.
+This project is developed for educational purposes and cultural preservation of Kailolo Village.
 
-## 🤝 Kontribusi
+## 🤝 Contributing
 
-Kontribusi untuk pengembangan aplikasi ini sangat diterima. Silakan:
+Contributions to the development of this application are very welcome. Please:
 
-1. Fork repository
-2. Buat branch fitur baru
-3. Commit perubahan
-4. Push ke branch
-5. Buat Pull Request
+1. Fork the repository
+2. Create a new feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-## 📞 Kontak
+## 📞 Contact
 
-Untuk pertanyaan atau saran, silakan hubungi chairilali13@gmail.com atau +6282238482847.
+For questions or suggestions, please contact chairilali13@gmail.com or +6282238482847.
 
 ---
 
-**Kailolo Lingua** - Melestarikan Bahasa, Menjaga Budaya 🏛️
+**Kailolo Lingua** - Preserving Language, Maintaining Culture 🏛️
