@@ -40,6 +40,30 @@ Kailolo Lingua is a Flutter-based mobile application designed to help the people
   <img src="feature/About.jpg" alt="About Developer" width="300"/>
 </div>
 
+## 📥 Download
+
+<div align="center">
+  
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/Chairil13/Kailolo-Lingua-App/releases/latest)
+
+**Latest Release:** [Kailolo Lingua v1.0.0](https://github.com/Chairil13/Kailolo-Lingua-App/releases/latest)
+
+</div>
+
+### 📱 Installation Instructions
+
+1. **Download** the latest APK from the [Releases page](https://github.com/Chairil13/Kailolo-Lingua-App/releases/latest)
+2. **Enable** "Install from unknown sources" in your Android settings
+3. **Install** the downloaded APK file
+4. **Enjoy** learning Kailolo language!
+
+### 📋 System Requirements
+
+- **Android**: 5.0 (API level 21) or higher
+- **Storage**: ~20 MB free space
+- **RAM**: 2 GB recommended
+- **Internet**: Not required (offline app)
+
 ## 📱 Main Features
 
 ### 🔍 Digital Dictionary
